@@ -90,3 +90,7 @@ console.log(favoriteFriends);
 console.log(friends);
 
 let owesMoney = friends.slice(3,6);
+
+//toString
+let monthNameString = monthNames.toString();
+console.log(monthNameString);
