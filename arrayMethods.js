@@ -43,3 +43,10 @@ let nextOrder = orderQueue.shift();
 console.log(orderQueue);
 
 console.log(nextOrder);
+
+//sort
+let sortNum = mixedNums.sort();
+console.log(mixedNums);
+
+let sortWords = mixedWords.sort();
+console.log(mixedWords);
