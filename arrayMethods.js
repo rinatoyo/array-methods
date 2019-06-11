@@ -76,3 +76,10 @@ console.log(randomThingsArray);
 
 let updatedOrders = orderQueue.concat({takeOut: 'Sushi'},{takeOut: 'Ramen'});
 console.log(updatedOrders);
+
+//join
+let sentence = scrambledWords.join(' ');
+console.log(sentence);
+
+let myFruits = fruitCollection.join(' + ');
+console.log(myFruits);
