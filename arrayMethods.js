@@ -83,3 +83,10 @@ console.log(sentence);
 
 let myFruits = fruitCollection.join(' + ');
 console.log(myFruits);
+
+//slice
+let favoriteFriends = friends.slice(1,3);
+console.log(favoriteFriends);
+console.log(friends);
+
+let owesMoney = friends.slice(3,6);
