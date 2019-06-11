@@ -94,3 +94,10 @@ let owesMoney = friends.slice(3,6);
 //toString
 let monthNameString = monthNames.toString();
 console.log(monthNameString);
+
+//indexof
+let favoriteColor = colors.indexOf('Red');
+console.log(favoriteColor);
+
+let favoriteEvenNumber = mixedNums.indexOf(76);
+console.log(favoriteEvenNumber);
