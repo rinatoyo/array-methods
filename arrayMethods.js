@@ -24,7 +24,15 @@ console.log(nameArray);
 let missingNum = genericNumberArray.push(6,7,8,9,10);
 console.log(genericNumberArray);
 
+
 let popResult = colors.pop();
 console.log(colors);
 
 console.log(popResult);
+
+
+let backwards = scrambledWords.reverse();
+console.log(scrambledWords);
+
+let numberPhone = phoneNumber.reverse();
+console.log(phoneNumber);
