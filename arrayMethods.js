@@ -17,6 +17,7 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
 
+//push
 let nameArray = [];
 let fullName = nameArray.push('Rina', 'Toyoshiba');
 console.log(nameArray);
@@ -24,15 +25,21 @@ console.log(nameArray);
 let missingNum = genericNumberArray.push(6,7,8,9,10);
 console.log(genericNumberArray);
 
-
+//pop
 let popResult = colors.pop();
 console.log(colors);
 
 console.log(popResult);
 
-
+//reverse
 let backwards = scrambledWords.reverse();
 console.log(scrambledWords);
 
 let numberPhone = phoneNumber.reverse();
 console.log(phoneNumber);
+
+//shift
+let nextOrder = orderQueue.shift();
+console.log(orderQueue);
+
+console.log(nextOrder);
