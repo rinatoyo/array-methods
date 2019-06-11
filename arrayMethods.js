@@ -101,3 +101,10 @@ console.log(favoriteColor);
 
 let favoriteEvenNumber = mixedNums.indexOf(76);
 console.log(favoriteEvenNumber);
+
+//lastIndexOf
+let lastNine = bulkNumbers.lastIndexOf(9);
+console.log(lastNine);
+
+let lastFive = bulkNumbers.lastIndexOf(5);
+console.log(lastFive);
