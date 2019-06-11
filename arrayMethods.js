@@ -50,3 +50,11 @@ console.log(mixedNums);
 
 let sortWords = mixedWords.sort();
 console.log(mixedWords);
+
+//splice
+let notFruit = fruitCollection.splice(1,3);
+console.log(fruitCollection);
+
+gemBox.splice(5,2);
+gemBox.splice(-4,4);
+console.log(gemBox);
