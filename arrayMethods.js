@@ -70,3 +70,9 @@ let orderedValuesNewLength = orderedValues.unshift(1,2,3);
 console.log(orderedValues);
 
 //concat
+
+let randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
+
+let updatedOrders = orderQueue.concat({takeOut: 'Sushi'},{takeOut: 'Ramen'});
+console.log(updatedOrders);
